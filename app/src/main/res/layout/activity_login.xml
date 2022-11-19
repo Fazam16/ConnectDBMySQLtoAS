@@ -49,6 +49,16 @@
             android:id="@+id/buttonLogin"
             />
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/backRegister"
+            android:textAlignment="center"
+            android:text="Registered ?"
+            android:onClick="backToRegister"
+            />
+
+
     </LinearLayout>
 
 </RelativeLayout>
